@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <h1 class="nav-h1">Zhabest</h1>
+
+            <input class="nav-search" type="search"><button class="nav-button">Search</button>
+
+            <ul class="nav-ul">
+
+                <li class="nav-li"> <i class='bx bxs-user-account'></i> Account</li>
+                <li class="nav-li"> <i class='bx bx-help-circle'></i> Help</li>
+                <li class="nav-li"> <i class='bx bxs-cart'></i> <a href="#Cart" class="nav-a">Cart</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div id="Cart">
+
+            <h1 class="cart-h1"> Shopping Cart</h1>
+            <p class="cart-p">Thank you for shopping with us</p>
+
+        </div>
+
+        <div class="cart-items">
+
+            <div class="cart-item" data-price="2000.00">
+
+                <span class="item-name">Item 1</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$2000.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "5500.00">
+
+                <span class="item-name">Item 2</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$5500.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "500.00">
+
+                <span class="item-name">Item 3</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$500.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "3000.00">
+
+                <span class="item-name">Item 4</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$3000.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "250.00">
+
+                <span class="item-name">Item 5</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$250.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "1500.00">
+
+                <span class="item-name">Item 6</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$1500.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+            <div class="cart-item" data-price = "4500.00">
+
+                <span class="item-name">Item 7</span>
+    
+                <button class="like">♡</button>
+    
+                <div class="quantity-control">
+    
+                    <button class="minus">-</button>
+    
+                    <span class="quantity">1</span>
+    
+                    <button class="plus">+</button>
+    
+                </div>
+    
+                <span class="item-price">$4500.00</span>
+    
+                <button class="delete">Delete</button>
+    
+            </div>
+
+        </div>
+
+        <div class="total-price">
+
+            <h2>Total: $<span id="total">17250.00</span></h2>
+        
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
